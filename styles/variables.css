@@ -1,3 +1,12 @@
+:root {
+  --main-bg-image: url(../images/cover-image-dark.png);
+  --main-bg-color: #000028;
+  --title-color: #DB00FF;
+  --header-discription-color: #000028;
+  --accent-color: #FF0070;
+  --projects-padding: 10px;
+}
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
