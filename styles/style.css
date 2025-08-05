@@ -12,9 +12,8 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   position: relative;
-  justify-items: start;
-  align-items: center;
-  padding: var(--projects-padding);
+  place-items: center start;
+  padding: var(--main-padding);
 }
 
 .decorated-zone::before {
@@ -24,8 +23,8 @@
   border-inline-end: 1px solid var(--accent-menu-button-color);
   inline-size: 25px;
   block-size: 25px;
-  inset-block-start: var(--projects-padding);
-  inset-inline-end: var(--projects-padding);
+  inset-block-start: var(--main-padding);
+  inset-inline-end: var(--main-padding);
 }
 
 .decorated-zone::after {
@@ -35,19 +34,17 @@
   border-inline-start: 1px solid var(--accent-menu-button-color);
   inline-size: 25px;
   block-size: 25px;
-  inset-block-end: var(--projects-padding);
-  inset-inline-start: var(--projects-padding);
+  inset-block-end: var(--main-padding);
+  inset-inline-start: var(--main-padding);
 }
 
 .header__decoration {
-  font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
   color: var(--accent-color);
   text-transform: uppercase;
   position: absolute;
-  inset-block-start: var(--projects-padding);
-  inset-inline-end: var(--projects-padding);
+  inset-block-start: var(--main-padding);
+  inset-inline-end: var(--main-padding);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,9 +73,7 @@
 }
 
 .header__theme-menu-button {
-  font-size: 18px;
   line-height: 18px;
-  font-weight: 400;
   text-transform: lowercase;
   color: var(--accent-menu-button-color);
   background-color: transparent;
@@ -118,8 +113,6 @@
 
 .header__discription {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23.4px;
   max-inline-size: 364px;
   justify-self: end;
 }
@@ -128,14 +121,12 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px; 
-  padding: var(--projects-padding);
+  padding: var(--main-padding);
   margin: var(--section-margin);
 }
 
 .section__title {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23.4px;
   color: var(--accent-color);
 }
 
@@ -152,24 +143,15 @@
 
 .card__title {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23.4px;
   margin-block-end: 10px;
 }
 
 .card__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23.4px;
   color: var(--main-text-color);
 }
 
 .link {
   text-decoration: none;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  color: inherit;
   text-shadow: 2px 1px 0 var(--accent-color);
 }
 
@@ -205,7 +187,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--projects-padding);
+  padding: var(--main-padding);
   block-size: 100vh;
   min-block-size: 668px;
 }
