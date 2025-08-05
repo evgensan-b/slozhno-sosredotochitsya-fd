@@ -20,8 +20,8 @@
 .decorated-zone::before {
   content: '';
   position: absolute;
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-menu-button-color);
+  border-inline-end: 1px solid var(--accent-menu-button-color);
   inline-size: 25px;
   block-size: 25px;
   inset-block-start: var(--projects-padding);
@@ -31,8 +31,8 @@
 .decorated-zone::after {
   content: '';
   position: absolute;
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-menu-button-color);
+  border-inline-start: 1px solid var(--accent-menu-button-color);
   inline-size: 25px;
   block-size: 25px;
   inset-block-end: var(--projects-padding);
@@ -80,19 +80,19 @@
   line-height: 18px;
   font-weight: 400;
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--accent-menu-button-color);
   background-color: transparent;
   border: none;
   padding: 4px 13px;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-hover-color);
   cursor: pointer;
 }
 
 .header__theme-menu-button:active {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-menu-button-color);
 }
 
 .header__theme-menu-button:focus {
@@ -100,11 +100,11 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-menu-button-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-menu-button-color);
   pointer-events: none;
 }
 
