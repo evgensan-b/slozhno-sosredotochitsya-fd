@@ -2,9 +2,9 @@
   --main-bg-image: url(../images/cover-image-dark.png);
   --main-bg-color: #000028;
   --title-color: #DB00FF;
-  --header-discription-color: #000028;
+  --accent-subtitle-color: #000028;
+  --accent-decoration-color: #FF0070;
   --accent-color: #FF0070;
   --main-text-color: #F1B2CE;
-  --accent-menu-button-color: #FF0070;
   --accent-hover-color: rgba(255, 0, 112, 0.5);
 }

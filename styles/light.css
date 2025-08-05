@@ -2,10 +2,10 @@
   --main-bg-image: url(../images/cover-image-light.png);
   --main-bg-color: #FFC2E6;
   --title-color: #FFC2E6;
-  --header-discription-color: #353430;
+  --accent-subtitle-color: #353430;
+  --accent-decoration-color: #353430;
   --accent-color: #FF8DCB;
   --main-text-color: #353430;
-  --accent-menu-button-color: #353430;
   --accent-hover-color: rgba(53, 52, 48, 0.5);
 }
 
@@ -18,10 +18,10 @@
     --main-bg-image: url(../images/cover-image-light.png);
     --main-bg-color: #FFC2E6;
     --title-color: #FFC2E6;
-    --header-discription-color: #353430;
+    --accent-subtitle-color: #353430;
+    --accent-decoration-color: #353430;
     --accent-color: #FF8DCB;
     --main-text-color: #353430;
-    --accent-menu-button-color: #353430;
     --accent-hover-color: rgba(53, 52, 48, 0.5);
   }
 

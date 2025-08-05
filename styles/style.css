@@ -19,8 +19,8 @@
 .decorated-zone::before {
   content: '';
   position: absolute;
-  border-block-start: 1px solid var(--accent-menu-button-color);
-  border-inline-end: 1px solid var(--accent-menu-button-color);
+  border-block-start: 1px solid var(--accent-decoration-color);
+  border-inline-end: 1px solid var(--accent-decoration-color);
   inline-size: 25px;
   block-size: 25px;
   inset-block-start: var(--main-padding);
@@ -30,8 +30,8 @@
 .decorated-zone::after {
   content: '';
   position: absolute;
-  border-block-end: 1px solid var(--accent-menu-button-color);
-  border-inline-start: 1px solid var(--accent-menu-button-color);
+  border-block-end: 1px solid var(--accent-decoration-color);
+  border-inline-start: 1px solid var(--accent-decoration-color);
   inline-size: 25px;
   block-size: 25px;
   inset-block-end: var(--main-padding);
@@ -75,7 +75,7 @@
 .header__theme-menu-button {
   line-height: 18px;
   text-transform: lowercase;
-  color: var(--accent-menu-button-color);
+  color: var(--accent-decoration-color);
   background-color: transparent;
   border: none;
   padding: 4px 13px;
@@ -87,7 +87,7 @@
 }
 
 .header__theme-menu-button:active {
-  outline: 1px solid var(--accent-menu-button-color);
+  outline: 1px solid var(--accent-decoration-color);
 }
 
 .header__theme-menu-button:focus {
@@ -95,11 +95,11 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-menu-button-color);
+  border-block-end: 1px solid var(--accent-decoration-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-menu-button-color);
+  border: 1px solid var(--accent-decoration-color);
   pointer-events: none;
 }
 
@@ -127,11 +127,11 @@
 
 .section__title {
   font-weight: 700;
-  color: var(--accent-color);
+  color: var(--accent-decoration-color);
 }
 
 .title-decor {
-  color: var(--header-discription-color);
+  color: var(--accent-subtitle-color);
   background-color: var(--accent-color);
 }
 
@@ -167,8 +167,8 @@
   outline: 1px solid var(--main-text-color);
 }
 
-.section__title-line-height {
-  line-height: 22.5px;
+.section__answers .card__title {
+  font-weight: 400;
 }
 
 .section__gallery {
