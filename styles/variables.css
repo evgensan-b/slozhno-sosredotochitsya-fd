@@ -5,12 +5,14 @@
   --header-discription-color: #000028;
   --accent-color: #FF0070;
   --projects-padding: 10px;
+  --section-margin: 30px 0;
   --main-text-color: #F1B2CE;
 }
 
 @media (width >= 768px) {
   :root {
     --projects-padding: 20px;
+    --section-margin: 40px 0;
   }
 }
 
