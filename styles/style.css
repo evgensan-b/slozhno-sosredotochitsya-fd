@@ -167,6 +167,10 @@
   outline: 1px solid var(--main-text-color);
 }
 
+.section__answers {
+  gap: 19px;
+}
+
 .section__answers .card__title {
   font-weight: 400;
 }
@@ -229,7 +233,7 @@
     grid-column: 2 / 4;
   }
 
-  .section__answers .section__card-list{
+  .section__answers .section__card-list {
     grid-column: 2 / 4;
   }
 
